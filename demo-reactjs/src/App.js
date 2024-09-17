@@ -1,10 +1,10 @@
-import { Home } from "./Home";
-
+import { DemoInput } from "./DemoInput";
 
 function App() {
+ 
   return (
     <div >
-      <Home></Home>
+      <DemoInput></DemoInput>
     </div>
   );
 }
