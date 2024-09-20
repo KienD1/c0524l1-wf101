@@ -8,13 +8,13 @@ export class Content extends React.Component {
         }
     }
     increment = () => {
-       this.setState({
-        count : this.state.count + 1
-       }) // Cập nhật dữ liệu thông qua hàm setState
+        this.setState({
+            count: this.state.count + 1
+        }) // Cập nhật dữ liệu thông qua hàm setState
     }
 
-    change =  () => {
-        this.setState({ 
+    change = () => {
+        this.setState({
             name: "kien Hoai"
         })
     }

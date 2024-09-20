@@ -1,10 +1,11 @@
-import { DemoInput } from "./DemoInput";
+import StudentList from './StudentList';
 
 function App() {
  
   return (
     <div >
-      <DemoInput></DemoInput>
+
+      <StudentList></StudentList>
     </div>
   );
 }
