@@ -1,11 +1,11 @@
-import StudentList from './StudentList';
-
+import CatList from "./CatList";
+import UserList from "./UserList";
 function App() {
  
   return (
     <div >
-
-      <StudentList></StudentList>
+      <CatList></CatList>
+      <UserList></UserList>
     </div>
   );
 }
